@@ -32,7 +32,7 @@ The pipeline:
 ## Data sources
 
 - World Cup match data (2014, 2018, 2022, 2026 group stage) and qualifier results, provided as an Excel workbook with one sheet per tournament
-- Football Elo ratings table from [eloratings.net](https://www.eloratings.net/) downloaded just beforre the Round of 32 matches.
+- Football Elo ratings table from [eloratings.net](https://www.eloratings.net/) downloaded just before the Round of 32 matches.
 
 Both files are included in this repo and are read directly by the notebook.
 
