@@ -6,10 +6,9 @@ My model predicts that France will defeat Argentina in the finals with a 53% win
 
 Semi-Finals:
 
-##
 -France vs Spain (France advances (50%))
+
 -England vs Argentina (Argentina advances (50%))
-##
 
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/f6dd5256-4f7f-4d57-bfd7-cf0e34019c28" />
 
@@ -97,6 +96,13 @@ overall win probability (10.6%) across all simulations. That's not a
 contradiction: the top simulation table reflects the probability of winning
 the *whole* tournament across every possible path, while the bracket
 walkthrough just follows the single most likely outcome at each round.
+
 ## Limitations
 
 The model has no awareness of injuries, suspensions, tactical context, or squad changes. It is trained on a relatively small number of major tournaments, so the exact probabilities should be treated as a reasonable baseline rather than a precise forecast. The walk forward validation setup also only provides one meaningful test split given how few World Cups exist in the data, so I would not read too much into small accuracy differences between models.
+
+## Author
+
+Mohamed Irfan
+
+MSc AI and Computer Science, University of Birmingham 
