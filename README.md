@@ -5,8 +5,8 @@ A machine learning project that predicts the outcome of football matches and sim
 My model predicts that France will defeat Argentina in the finals with a 53% win probability making France the 2026 World Cup champions. 
 
 Semi-Finals:
-France vs Spain (France advances (50%))
-England vs Argentina (Argentina advances (50%))
+-France vs Spain (France advances (50%))
+-England vs Argentina (Argentina advances (50%))
 
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/f6dd5256-4f7f-4d57-bfd7-cf0e34019c28" />
 
@@ -81,4 +81,5 @@ The model has no awareness of injuries, suspensions, tactical context, or squad 
 ## Author
 
 Mohamed Irfan
+
 MSc AI and Computer Science, University of Birmingham Dubai
