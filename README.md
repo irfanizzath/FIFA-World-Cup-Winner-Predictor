@@ -77,14 +77,24 @@ This returns a home win, draw, and away win probability, and (if `verbose=True`)
 
 ## Results
 
+Predicted bracket:
+
+![Win probability rankings](assets/bracket.jpeg)
+
 Top 20 teams by simulated win probability, from 500,000 Monte Carlo runs:
 
-![Win probability rankings](assets/win_probabilities.png)
+![Win probability rankings](assets/win_probabilities.jpeg)
 
 Deterministic bracket walkthrough (most likely winner at each stage):
 
-![Predicted bracket results](assets/bracket_predictions.png)
+![Predicted bracket results](assets/bracket_predictions.jpeg)
 
+According to the model, France is the most likely eventual winner (53% in
+the final against Argentina), despite Argentina having the highest single
+overall win probability (10.6%) across all simulations. That's not a
+contradiction: the top simulation table reflects the probability of winning
+the *whole* tournament across every possible path, while the bracket
+walkthrough just follows the single most likely outcome at each round.
 ## Limitations
 
 The model has no awareness of injuries, suspensions, tactical context, or squad changes. It is trained on a relatively small number of major tournaments, so the exact probabilities should be treated as a reasonable baseline rather than a precise forecast. The walk forward validation setup also only provides one meaningful test split given how few World Cups exist in the data, so I would not read too much into small accuracy differences between models.
