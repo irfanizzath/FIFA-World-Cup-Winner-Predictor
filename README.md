@@ -5,6 +5,7 @@ A machine learning project that predicts the outcome of football matches and sim
 My model predicts that France will defeat Argentina in the finals with a 53% win probability making France the 2026 World Cup champions. 
 
 Semi-Finals:
+
 -France vs Spain (France advances (50%))
 -England vs Argentina (Argentina advances (50%))
 
@@ -74,12 +75,16 @@ predict_match("Argentina", "France")
 
 This returns a home win, draw, and away win probability, and (if `verbose=True`) prints a readable breakdown.
 
+## Results
+
+Top 20 teams by simulated win probability, from 500,000 Monte Carlo runs:
+
+![Win probability rankings](assets/win_probabilities.png)
+
+Deterministic bracket walkthrough (most likely winner at each stage):
+
+![Predicted bracket results](assets/bracket_predictions.png)
+
 ## Limitations
 
 The model has no awareness of injuries, suspensions, tactical context, or squad changes. It is trained on a relatively small number of major tournaments, so the exact probabilities should be treated as a reasonable baseline rather than a precise forecast. The walk forward validation setup also only provides one meaningful test split given how few World Cups exist in the data, so I would not read too much into small accuracy differences between models.
-
-## Author
-
-Mohamed Irfan
-
-MSc AI and Computer Science, University of Birmingham Dubai
